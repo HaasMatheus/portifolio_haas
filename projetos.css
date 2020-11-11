@@ -1,0 +1,120 @@
+
+body{
+	background-image: url("img/fundos_site.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+body,ul,li,p{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 1.2rem;
+  font-family: arial;
+}
+
+body{
+  margin-bottom: 100px;
+}
+
+a{
+  text-decoration: none;
+  color: white
+}
+
+h1{
+  text-align: center;
+  margin-top: 100px;
+}
+
+h2{
+  text-align: center;
+  margin: 10px;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+.nomes p{
+  text-align: center;
+  margin: 10px;
+}
+
+button{
+  color: white;
+  background-color: green;
+  height: 30px;
+	border: none;
+  border-radius: 5px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.header{
+  background:#009688;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.menu{
+  display: flex;
+}
+.menu li{
+  margin-left: 10px
+}
+.menu li a{
+  display: block;
+  padding: 0px;
+}
+
+main{
+	width: 80%;
+	background: #66CDAA;
+	position: relative;
+	top: 10px;
+	left: 7%;
+	float: left;
+	margin: 20px;
+	padding-bottom: 20px;
+}
+main section{
+
+	width: 80%;
+	margin-left: 8%;
+	padding: 20px;
+	margin-top: 30px;
+	background-color:white;
+}
+
+.logos{
+  display: flex;
+  flex-direction: row;
+}
+
+footer h6{
+  display: flex;
+  flex-direction:row-reverse;
+  color: white;
+	margin: 0px;
+}
+
+footer{
+	 display: block;
+	 clear: both;
+	 height: 115px;
+	 padding: 10px;
+	 position: relative;
+	 background-color: 	#009688;
+	 top: 170px;
+	 bottom: 0px;
+	 overflow: hidden;
+	 padding-bottom: 40px;
+}

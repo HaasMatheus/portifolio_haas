@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="quiz.css">
+    <title>Quiz Haas</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html">
+    <img src="./img/img_logo.png">
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Portfólio</a></li>
+
+      </ul>
+    </nav>
+
+  </header>
+
+
+
+    <div class="home-box custom-box">
+      <h3>Instruções:</h3>
+      <p>Número total de questões: <span  class="total-question"></span></p>
+      <button type="button" class="btn" onclick="startQuiz()">Iniciar Quiz</button>
+    </div>
+
+    <div class="quiz-box custom-box hide">
+      <div class="question-number">
+
+      </div>
+      <div class="question-text">
+
+      </div>
+      <div class="option-container">
+
+      </div>
+      <div class="next-question-btn">
+          <button type="button" class="btn" onclick="next()">Próxima</button>
+      </div>
+      <div class="answers-indicator">
+
+      </div>
+    </div>
+
+    <div class="result-box custom-box hide">
+      <h1>Resultado do Quiz</h1>
+      <table>
+        <tr>
+            <td>Total de Questões</td>
+            <td><span class="total-question"></span></td>
+        </tr>
+        <tr>
+            <td>Tentativas</td>
+            <td><span class="total-attempt"></span></td>
+        </tr>
+        <tr>
+            <td>Acertos</td>
+            <td><span class="total-correct"></span></td>
+        </tr>
+        <tr>
+            <td>Erros</td>
+            <td><span class="total-wrong"></span></td>
+        </tr>
+        <tr>
+            <td>Porcentagem</td>
+            <td><span class="percentage"></span></td>
+        </tr>
+        <tr>
+            <td>Total de Pontos</td>
+            <td><span class="total-score"></span></td>
+        </tr>
+      </table>
+      <button type="button" class="btn" onclick="tryAgainQuiz()">Tentar Novamente</button>
+      <a href="projeto6.html"><button type="button" class="btn">Ir para Página Inicial</button></a>
+    </div>
+
+    <script  src="questoes.js"></script>
+    <script  src="quiz.js"></script>
+
+    <footer>
+
+      <a href="index.html">
+      <img src="./img/img_logo.png"></a><br>
+       <div class="logos">
+         <a href="https://pt-br.facebook.com/ifms.pp/">
+         <img src="./img/img_logo1.png">
+         <a href="https://twitter.com/IFMS_Ponta">
+         <img src="./img/img_logo2.png">
+         <a href="https://www.instagram.com/ifms_ponta/">
+         <img src="./img/img_logo3.png">
+         <a href="https://www.youtube.com/channel/UC_DLD3-ADKtoa6j-EUTqTvg">
+         <img src="./img/img_logo4.png">
+
+
+         <ul class="menu">
+
+           <li><a href="index.html">Portfólio</a></li>
+
+
+         </ul>
+
+       </div>
+  <h6>All rights reserved. Developed by Edson Matheus Haas. Updated in September, 2020.<h6>
+
+    </footer>
+
+  </body>
+</html>
