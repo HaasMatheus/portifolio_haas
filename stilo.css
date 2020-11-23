@@ -40,14 +40,7 @@ img{
   display: block;
 }
 
-/* .header{
-  background:#009688;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-} */
+
 
 .menu{
   display: flex;
@@ -126,15 +119,7 @@ h5{
 	padding-top: 20px;
 }
 
-/* form{
-	background-color:#E0FFFF;
-	margin: 45px;
-	border-radius: 3px;
-	width: 90%;
-	list-style: none;
-	font-size: 1.2rem;
-	font-family: arial;
-} */
+
 
  textarea{
 	outline: none;
