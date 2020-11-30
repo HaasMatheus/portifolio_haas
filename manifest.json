@@ -4,7 +4,7 @@
   "name":"Portfolio Haas",
   "short_name":"PH",
   "start_url":"https://haasgamer.github.io/portifolio_haas/",
-  "display":"minimal-ui",
+  "display":"standaAlone",
   "scope":"/portifolio_haas/",
   "backgroun_color":"#009688",
   "theme_color":"#009699",
