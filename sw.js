@@ -22,6 +22,7 @@ const files = [
 ]
 
 self.addEventListener('install',  function(evt){
+  console.log("install sw")
   evt.waitUntil(
     caches.open(cacheName).then(function(cache){
     cache.addAll(files)
