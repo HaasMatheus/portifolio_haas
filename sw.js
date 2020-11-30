@@ -1,4 +1,4 @@
-const cacheName = "portfolio-v1"
+const cacheName = "portfolio-v1.1"
 const files = [
   '/portifolio_haas/',
   '/portifolio_haas/index.html',
@@ -34,8 +34,24 @@ self.addEventListener('install',  function(evt){
 
 self.addEventListener('activate', function(evt){
   console.log("activate sw")
+  evt.waitUntil(
+    caches.keys().then(function(keys){
+    return Promise.all(
+     keys
+     .filter(key => key !== cacheName)
+     .map(key => caches.delete(key))
+      )
+    })
+  )
+
 })
 
 self.addEventListener('fetch', function(evt){
   console.log("fetch sw")
+  evt.responseWith(
+    caches.match(evt.request).then(function(res){
+    return res || fetch(evt.request)
+    })
+  )
+
 })
