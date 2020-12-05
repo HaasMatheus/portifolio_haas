@@ -121,9 +121,8 @@ h5{
   color: 		#363636;
 	text-align: justify;
 	line-height: 1.5;
-  height:0px;
-	width:450px;
-	padding-top: 20px;
+	width:800px;
+	padding-top: 50px;
 }
 
 
@@ -137,7 +136,7 @@ h5{
 	border: solid 1px #ccc;
 	padding: 10px;
 	outline: none;
-	width: 280px;
+	width: 250px;
 }
 
 .field:focus{
